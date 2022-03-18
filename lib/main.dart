@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_wan_android_ike/splash_page.dart';
+import 'package:flutter_wan_android_ike/page/splash/splash_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,8 +42,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const Center(
+    return const Scaffold(
+      body: Center(
         child: SplashPage(),
       ),
     );
